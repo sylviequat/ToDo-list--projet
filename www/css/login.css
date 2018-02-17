@@ -3,10 +3,8 @@ body {
   background-color:white;
   background-image: url("../../www/images/fond.png");
   background-repeat:no-repeat;
+  background-position: top;
   }
-
-
-
 
 .form-gradient {
   position: absolute;
@@ -17,22 +15,20 @@ body {
   background-image: url("../../www/images/post1.png");
 }
 
-.form-gradient .font-small {
-    font-size: 0.8rem; }
-  
-  
-  .form-gradient input[type=text]:focus:not([readonly]) {
-    border-bottom: 1px solid #fd9267;
-    -webkit-box-shadow: 0 1px 0 0 #fd9267;
-    box-shadow: 0 1px 0 0 #fd9267; }
-  
-  .form-gradient input[type=text]:focus:not([readonly]) + label {
-    color: #4f4f4f; }
-  
-  .form-gradient input[type=password]:focus:not([readonly]) {
-    border-bottom: 1px solid #fd9267;
-    -webkit-box-shadow: 0 1px 0 0 #fd9267;
-    box-shadow: 0 1px 0 0 #fd9267; }
-  
-  .form-gradient input[type=password]:focus:not([readonly]) + label {
-    color: #4f4f4f; }
+
+.todoList li{
+  padding: 10px;
+  display: flex;
+  width: 200px;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #000;
+  border-radius: 15px;
+}
+
+.todoList ul{
+  padding: 0;
+  list-style: none;
+  width: 680px;
+}
