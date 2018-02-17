@@ -1,0 +1,43 @@
+body {
+  color:black;
+  background-color:white;
+  background-image: url("../../www/images/fond.png");
+  background-repeat:no-repeat;
+  }
+
+
+#todoList {
+  position: relative;
+  vertical-align: baseline;
+  display: flex;
+  padding: 50px;
+  justify-content:space-around;
+  border-style: groove;
+  border-width: 5px;
+  border-radius: 20px;
+  border-color: grey;
+  background-color: yellowgreen;
+  box-shadow: 12px 12px 2px 1px rgba(34, 29, 23, 0.2);
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  align-content: center;
+}
+
+#todoList title {
+  background-color: green;
+}
+
+
+#todoList p {
+  position:relative; 
+  width:180px; 
+  padding-right:120px; 
+  text-align:right;
+}
+
+#todolist ul {
+  border-style: groove;
+  display: flex;
+}
+

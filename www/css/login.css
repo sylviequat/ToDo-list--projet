@@ -1,0 +1,38 @@
+body {
+  color:black;
+  background-color:white;
+  background-image: url("../../www/images/fond.png");
+  background-repeat:no-repeat;
+  }
+
+
+
+
+.form-gradient {
+  position: absolute;
+  background-position-x: 800px;
+  background-position-y: 400px;
+  width: 200px;
+  height: 200px;
+  background-image: url("../../www/images/post1.png");
+}
+
+.form-gradient .font-small {
+    font-size: 0.8rem; }
+  
+  
+  .form-gradient input[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid #fd9267;
+    -webkit-box-shadow: 0 1px 0 0 #fd9267;
+    box-shadow: 0 1px 0 0 #fd9267; }
+  
+  .form-gradient input[type=text]:focus:not([readonly]) + label {
+    color: #4f4f4f; }
+  
+  .form-gradient input[type=password]:focus:not([readonly]) {
+    border-bottom: 1px solid #fd9267;
+    -webkit-box-shadow: 0 1px 0 0 #fd9267;
+    box-shadow: 0 1px 0 0 #fd9267; }
+  
+  .form-gradient input[type=password]:focus:not([readonly]) + label {
+    color: #4f4f4f; }
