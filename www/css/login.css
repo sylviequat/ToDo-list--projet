@@ -14,13 +14,17 @@ body {
 
   #Form-email3 {
     width: 250px;
-    height: 30px;
+    height: 20px;
 
   }
   #Form-pass3 {
-    width: 250px;
-    height: 30px;
+    width: 200px;
+    height: 20px;
 
+  }
+  #title {
+    width: 300px;
+    height: 20px;
   }
 
   #todoList {
@@ -47,10 +51,14 @@ body {
   #titrep {
     width: 400px;
     height: 30px;
+    border-radius: 15px;
+    padding: 10px;
   }
   #descr {
     width: 400px;
     height: 200px;
+    border-radius: 15px;
+    padding: 10px;
   }
   
   #todolist ul {
