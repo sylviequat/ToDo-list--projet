@@ -26,42 +26,11 @@ body {
     width: 300px;
     height: 20px;
   }
-
-  #todoList {
-
-    padding: 50px;
-    justify-content:space-around;
-    border-style: groove;
-    border-width: 5px;
-    border-radius: 20px;
-    box-shadow: 12px 12px 2px 1px rgba(34, 29, 23, 0.2);
-    margin: auto;
-    width: 400px;
-    height: 400px;
-    align-content: center;
-  }
   
-    #todoList p {
-    position:relative; 
-    width:300px; 
-    padding-right:120px; 
-    text-align:right;
-  }
 
-  #titrep {
-    width: 400px;
-    height: 30px;
-    border-radius: 15px;
-    padding: 10px;
-  }
-  #descr {
-    width: 400px;
-    height: 200px;
-    border-radius: 15px;
-    padding: 10px;
-  }
+
   
-  #todolist ul {
+  #todolist form {
     position: relative;
     display: flex;
     padding: 50px;
@@ -77,6 +46,24 @@ body {
     height: 400px;
     align-content: center;
   }
+  #titrep {
+    width: 400px;
+    height: 30px;
+    border-radius: 15px;
+    padding: 10px;
+  }
+  #descr {
+    width: 400px;
+    height: 200px;
+    border-radius: 15px;
+    padding: 10px;
+  }
+
+#post-it {
+  width: 300;
+  height: 300;
+  background-image: url("../../www/images/Postit-1.png");
+}
 
   #poste {
     background-color: darkgray;
